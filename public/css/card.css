@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    margin: 0 auto 25px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.1);
+}
+
+.card-logo {
+    padding: 10px 0;
+}
+
+.card-logo span {
+    font-size: 50px;
+}
+
+.card-title {
+    background-color: #333;
+    color: #ececec;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.card-actions ul li a {
+    color: #ececec;
+    display: block;
+    padding: 15px 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card-actions ul li:last-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.blue {
+    background-color: #3498db;
+}
+
+.green {
+    background-color: #2ecc71;
+}
+
+.red {
+    background-color: #e74c3c;
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    font-family: Arial;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    list-style-type: none;
+    color: #333;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-left: -250px;
+    height: 100%;
+    background-color: red;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 10px;
+    transition: .5s;
+}
+
+nav a {
+    display: block;
+    color: #ececec;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a:first-child {
+    margin: -7px 0 0 0;
+    font-size: 60px;
+    text-align: right;
+}
+
+.navButton {
+    font-weight: 600;
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    background-color: #333;
+    color: #ececec;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px 0 0 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.body {
+    transition: .5s;
+    width: 100%;
+}
+
+.page-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 18px 0 20px;
+    text-align: center;
+    transition: .5s;
+    color: #333;
+}
+
+body {
+    background-color: #ececec;
+    transition: .5s;
+    width: auto;
+    min-width: 425px;
+}
+
+.container {
+    padding: 0 10px;
+}
+
+/*Add support for buttons*/
+@media screen and (max-width: 660px) {
+    
+}

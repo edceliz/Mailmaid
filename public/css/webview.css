@@ -1,0 +1,8 @@
+.container {
+    background-color: #fff;
+    margin: 0 auto 20px;
+    width: 100%;
+    max-width: 700px;
+    padding: 10px;
+    overflow: scroll;
+}

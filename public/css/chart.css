@@ -1,0 +1,29 @@
+.canvas {
+    width: 70%;
+    margin: 0 auto 25px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.1);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+canvas {
+    width: 100%;
+}
+
+.canvas button {
+    width: 22%;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: block;
+    border: none;
+    padding: 15px 10px;
+    font-size: 16px;
+    color: #ececec;
+    background-color: #3498db;
+    cursor: pointer;
+    font-weight: 600;
+}
